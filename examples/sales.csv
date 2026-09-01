@@ -1,0 +1,8 @@
+order_id,region,category,revenue,units,order_date,returned
+1001,North,Software,1299.00,3,2026-07-03,no
+1002,South,Services,850.50,1,2026-07-04,no
+1003,North,Hardware,2100.00,6,2026-07-05,yes
+1004,West,Software,650.00,2,2026-07-06,no
+1005,,Services,1250.75,4,2026-07-06,no
+1006,East,Hardware,,2,2026-07-08,yes
+1006,East,Hardware,,2,2026-07-08,yes

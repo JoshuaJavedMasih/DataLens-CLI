@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datalens-cli"
+version = "1.0.0"
+description = "A dependency-free CSV profiler with terminal, JSON, and HTML reports"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Merhatta Softwares" }]
+keywords = ["csv", "data-quality", "profiling", "cli"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+]
+
+[project.scripts]
+datalens = "datalens.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["datalens*"]
